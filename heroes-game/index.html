@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="assets/bg-image.jpg" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+   <title>Heroes game</title>
+</head>
+
+<body>
+
+
+  <div class="container">
+    <h1>Heroes Game</h1>
+    <div class="btns-container">
+      <button class="btn show-heroes" id="show-heroes">Show Heroes</button>
+      <button class="btn start-fight" id="start-fight">Start Fight</button>
+    </div>
+    <div class="heroes-container">
+      <div class="hero-container">
+        <div class="hero-avatar">
+          <img class="hero-img" src="assets/Thanos.jpg" alt="" />
+        </div>
+        <div class="hero-details-container hero-name">Thanos</div>
+        <div class="hero-details-container">
+          <div class="icons">
+            <span class="hp"></span>
+            <span>HP = 250</span>
+          </div>
+          <div class="icons">
+            <span class="attack"> Magical Glove </span>
+            <span> Attack = 120</span>
+          </div>
+          <div class="icons">
+            <span class="defense"> Gold Suit </span>
+            <span>Defence = 100</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-container">
+        <div class="hero-avatar">
+          <img class="hero-img" src="assets/ironman.jpg" alt="" />
+        </div>
+        <div class="hero-details-container hero-name">Iron Man</div>
+        <div class="hero-details-container">
+          <div class="icons">
+            <span class="hp"></span>
+            <span>HP ~ 190</span>
+          </div>
+          <div class="icons">
+            <span class="attack">Laser</span>
+            <span>Attack = 130</span>
+          </div>
+          <div class="icons">
+            <span class="defense">Stuning</span>
+            <span>Defence = 90</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-container">
+        <div class="hero-avatar">
+          <img class="hero-img" src="assets/doctorstrange.jpg" alt="" />
+        </div>
+        <div class="hero-details-container hero-name">Dr. Strange</div>
+        <div class="hero-details-container">
+          <div class="icons">
+            <span class="hp"></span>
+            <span>HP = 200</span>
+          </div>
+          <div class="icons">
+            <span class="attack">Chains of Krakkan </span>
+            <span>Attack = 100</span>
+          </div>
+          <div class="icons">
+            <span class="defense"> Demons of Denak </span>
+            <span>Defence = 80</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="show-winner" id="show-winner">
+      <p class="winner-text">The winner is:</p>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
